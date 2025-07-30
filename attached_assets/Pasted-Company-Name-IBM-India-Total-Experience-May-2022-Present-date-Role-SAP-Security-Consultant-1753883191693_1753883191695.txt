@@ -1,0 +1,82 @@
+Company Name: IBM, India.
+Total Experience: May 2022 - Present date.
+Role: SAP Security Consultant
+Project: Shell Pvt. Ltd.
+Project Work:
+
+Worked on SAP ERP, GRC Dashboard, Hana Studio, SAP Business Planning and     Consolidation Software, SAP S/4 Cloud, and SAP Net Weaver.
+Extensively used SU53 and SUIM to assign the missing authorizations to the users.
+Managing user login parameters and password parameters.
+User master Record creation/ modification using SU01, including complex design restrictions.
+Mass user creation using SU10.
+Created QTP scripts for mass creation and deletion of users and roles during system clean-ups, mass role generation, user assignments, and others as required by the team.
+Role creation/ modification using Profile Generator (PFCG), including complex design restrictions.
+Ensured accuracy and segregation of duties through comprehensive testing of all profiles and authorizations.
+Expertise in resolving Authorization issues by analyzing Authorization Checks.
+Troubleshooting user access through authorization error analysis (SU53, SU56) and System Trace (ST01).
+If needed, then work with Functional, BASIS, and Network teams to troubleshoot complex access problems.
+Monitor and maintain user ID through User Information System (SUIM) - created monthly audit reports. 
+Worked extensively with SE01, SE09, Rev Trac and SE10 in managing mass transport.
+When in need, helped with audit logs using SM18, SM19, and SM20.
+Proficient in working with the tables USR, AGR, and USH.
+Worked with ServiceNow for ticket management.
+Automated SAP tasks, reducing business support hours by 75%.
+Participated in various maintenance activities and implemented the SAP notes. 
+Also created a custom program using SE38 for the auto lock and delete users in the system.
+
+Company Name: Beedev Pvt. Ltd., India.
+Total Experience: July 2021 - May 2022.
+Role: Full Stack Flutter Developer
+Project 1: Pool Inspection Apps
+Project 1 Work:
+
+Pool Inspection Apps do everything from the initial booking, selecting the right Australian Standard, undertaking an inspection, to issuing a report or compliance. Everything is completed and issued on the spot. It even sends your personalized tax invoices automatically. Checked off against a series of basic questions with simple explanations appropriate only to the right Standard, Pool Inspection Apps provides a cloud-based inspection management software that can replace your old paper-based checklist by allowing you to use your office computer, mobile, or tablet. It records all your completed inspection report data, photos, and certificates, and allows any pre-set inspections to be completed on-site, whether you are online or offline.
+
+Project 2: Automover
+Project 2 Work:
+
+Registered surveyors can record Car Survey Reports on their Phones and Tablets. A Car Survey Canvas to mark existing damage on the vehicle with unique markers for Dents(X), Scratches(S), Rust(R) & Cracks(C). Digital Signature Pads for ‘Receiver Signature’ & ‘Sender Signature’. Attach up to 10 images to a Survey Report. Offline Submit Feature: When the device is offline, the Survey Reports are saved offline. Saved Surveys are automatically submitted when the device is online. 
+
+
+Company Name: Logicwind Pvt. Ltd., Surat.
+Total Experience: Jan 2021 - July 2021.
+Role: Flutter Developer Intern
+Project 1: Whiteboard Digitization
+Project 1 work: 
+
+In a normal scenario, suppose the teacher is writing on the whiteboard and suppose he/she comes between the camera and the whiteboard, it becomes difficult to take notes. Now in this project, an ML algorithm will continuously capture the image of the teacher writing on the board and simultaneously send the image to the server, and then from the server, the written words will appear on the web platform whiteboard. Now, suppose a teacher comes between the board and the camera, the ML algorithm recalls the word return in the previously captured image, and integrates with the live word so that there is no disturbance due to interference.
+
+Project 2: Sneaker E-commerce App
+Project 2 work:
+
+Developed an online sneaker selling app using the open-source Rest API of Sneaker. 
+
+Apart from the All company experience I have worked on two free lancing projects.
+
+Project 1: Smart India Hackathon 2020
+Role: Tech Lead
+Project Work: 
+This project is the solution to the textile problem. Which do Manufacturers, Wholesalers, and Retailers currently face? In this project, we designed an app that brings all Textile-related users on one platform. Our app tracks all product deliveries to stop fraud in textiles. It also informs Manufacturers about which products will be in trend in the next season or festival, or month by region. It also generates user GST reports. It provides the search product by Image. The app is based on Flutter, Firebase, and Machine Learning.
+
+Project 2: Khakiwala
+Role: Flutter Developer
+Project Work:
+Today, the police Servant of our country are ready to serve them without worrying about their family. In which they have difficulty in fulfilling their needs. Keeping these things in mind, the Khakiwala application has been made for Police Servants. The Khakiwala App allows police to access useful information on the go with only Police Breaking News, Daily Videos, headlines & updates on Internal News, Police Activities, Honor of Police, Stories, Police Tech News, Police Laws news & International Police News.
+
+Positions & Responsibility:
+Events: 
+
+An NSS member participated in the clean village initiative, Bardoli, with 74 participants, CGPIT'18. 
+Event Manager, Counter-Strike 2019 in UTU-Tech fest with 100+ participants, CGPIT'19.
+Sr Coord, National level hackathon hackinUTU with 6000+ participants, CGPIT'20.
+
+Skills:
+SAP, SAP Hana, SAP GRC, SAP S/4 Hana, SAP BTP, SAP Fiori, Git, Flutter, Python, Firebase, MySQL, Adobe Premiere Pro, REST API, C programming, Web Designing.
+Persistent, Collaborative, Analytical, Honest, Adaptive.
+
+Certificates:
+
+SAP Certified Technology Consultant – SAP S/4HANA System Administration Certification and SAP Basis Training.
+SAP Certified Technology Consultant - SAP Security Administration Certification
+Microsoft Certified: Azure Fundamentals Certified
+Received twice the Best Employee of the quarter in SAP Security from the Stakeholders.

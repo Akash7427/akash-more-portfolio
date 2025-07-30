@@ -1,4 +1,4 @@
 {
-  "buildCommand": "npm run build && cp -r attached_assets ./",
+  "buildCommand": "node build.js",
   "outputDirectory": "dist/public"
 }

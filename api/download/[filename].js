@@ -10,8 +10,20 @@ export default async function handler(req, res) {
       return res.status(400).json({ error: "Invalid filename" });
     }
 
-    // Construct file path
-    const filePath = path.join(process.cwd(), "attached_assets", filename);
+    // Construct file path - try multiple locations
+    let filePath = path.join(process.cwd(), "attached_assets", filename);
+
+    // Check alternative locations for Vercel deployment
+    try {
+      await fs.access(filePath);
+    } catch {
+      filePath = path.join(
+        process.cwd(),
+        "public",
+        "attached_assets",
+        filename
+      );
+    }
 
     // Check if file exists
     try {

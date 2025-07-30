@@ -114,37 +114,41 @@ export default function Home() {
     }
   };
 
-  // Handle contact form submission
-  const handleContactSubmit = async (e: React.FormEvent) => {
+  // Handle contact form submission with email fallback
+  const handleContactSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     
-    try {
-      const response = await fetch('/api/contact', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(contactForm)
-      });
+    // Create email body with form data
+    const emailBody = `Hi Akash,
 
-      const data = await response.json();
+I'm reaching out regarding: ${contactForm.subject}
 
-      if (response.ok) {
-        alert('Thank you for your message! I will get back to you soon.');
-        setContactForm({
-          firstName: "",
-          lastName: "",
-          email: "",
-          subject: "",
-          message: ""
-        });
-      } else {
-        alert(data.message || 'Something went wrong. Please try again.');
-      }
-    } catch (error) {
-      console.error('Contact form error:', error);
-      alert('Something went wrong. Please try again.');
-    }
+Name: ${contactForm.firstName} ${contactForm.lastName}
+Email: ${contactForm.email}
+
+Message:
+${contactForm.message}
+
+Best regards,
+${contactForm.firstName} ${contactForm.lastName}`;
+
+    // Create mailto link
+    const mailtoLink = `mailto:akashmore7427@gmail.com?subject=${encodeURIComponent(contactForm.subject)}&body=${encodeURIComponent(emailBody)}`;
+    
+    // Open default email client
+    window.location.href = mailtoLink;
+    
+    // Show success message
+    alert('Your email client will open with the message pre-filled. Please send the email from there.');
+    
+    // Reset form
+    setContactForm({
+      firstName: "",
+      lastName: "",
+      email: "",
+      subject: "",
+      message: ""
+    });
   };
 
   // Smooth scroll handler
@@ -1098,6 +1102,9 @@ export default function Home() {
             <Card className="bg-white/10 backdrop-blur-sm border-white/20">
               <CardContent className="pt-8">
                 <h3 className="text-2xl font-bold mb-6 text-white">Send a Message</h3>
+                <p className="text-blue-100 mb-6 text-sm">
+                  Fill out the form below and click "Send Message" to open your email client with the message pre-filled.
+                </p>
                 <form onSubmit={handleContactSubmit} className="space-y-6">
                   <div className="grid md:grid-cols-2 gap-6">
                     <div>

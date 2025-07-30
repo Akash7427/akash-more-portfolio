@@ -251,7 +251,7 @@ After deploying to any platform:
    - ✅ Dark/light mode toggle works
    - ✅ All animations are smooth
    - ✅ Download buttons work for CV and certificates
-   - ✅ Contact form submits properly
+   - ✅ Contact form opens email client with pre-filled message
    - ✅ Mobile responsiveness
 
 2. **SEO Optimization**

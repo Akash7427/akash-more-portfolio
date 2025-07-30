@@ -98,23 +98,16 @@ export default function Home() {
     });
   };
 
-  // Download function
-  const downloadFile = async (fileName: string) => {
+  // Download function for static assets
+  const downloadFile = (fileName: string) => {
     try {
-      const response = await fetch(`/api/download/${fileName}`);
-      if (!response.ok) {
-        throw new Error('Download failed');
-      }
-      
-      const blob = await response.blob();
-      const url = window.URL.createObjectURL(blob);
       const link = document.createElement('a');
-      link.href = url;
+      link.href = `/attached_assets/${fileName}`;
       link.download = fileName;
+      link.target = '_blank';
       document.body.appendChild(link);
       link.click();
       document.body.removeChild(link);
-      window.URL.revokeObjectURL(url);
     } catch (error) {
       console.error('Download error:', error);
       alert('Download failed. Please try again.');

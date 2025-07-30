@@ -33,8 +33,8 @@ Vercel offers the best performance and easiest setup for React applications.
 
 4. **Configure Build Settings**
    - **Framework Preset**: Vite (should auto-detect)
-   - **Build Command**: `npm run build`
-   - **Output Directory**: `dist`
+   - **Build Command**: `npm run build && cp -r attached_assets dist/`
+   - **Output Directory**: `dist/public`
    - **Install Command**: `npm install`
 
 5. **Deploy**
@@ -225,7 +225,12 @@ Free hosting directly from your GitHub repository.
 - Perfect for React/Vite applications
 - Professional URLs
 
-## 📁 Important: Before Deployment
+## 📁 Important: Vercel-Specific Setup
+
+**For Vercel Deployment:**
+1. **vercel.json** configuration file is included for proper routing
+2. **API folder** with serverless functions for file downloads
+3. **Build command** automatically copies assets during build
 
 **Build the Project First:**
 ```bash
@@ -237,6 +242,7 @@ This creates the `dist` folder with:
 - Optimized React app in `dist/public/`
 - Express server in `dist/index.js`
 - All downloadable assets in `dist/attached_assets/`
+- Vercel serverless functions in `api/` folder
 
 ## 🔧 Post-Deployment Checklist
 

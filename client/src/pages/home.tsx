@@ -1205,7 +1205,7 @@ ${contactForm.firstName} ${contactForm.lastName}`;
             
             <Separator className="mb-8 dark:bg-slate-700" />
             <p className="text-slate-400">
-              © 2024 Akash Sanjay More. All rights reserved. | 
+              © 2025 Akash Sanjay More. All rights reserved. | 
               <span className="text-[var(--ibm-blue)]"> Specializing in SAP Security & Enterprise Solutions</span>
             </p>
           </div>

@@ -268,7 +268,7 @@ ${contactForm.firstName} ${contactForm.lastName}`;
                 Akash Sanjay More
               </h1>
               <h2 className="text-xl lg:text-2xl text-blue-100 mb-6 animate-slide-up">
-                SAP Security Consultant at IBM
+                SAP Security & GRC Consultant at IBM
               </h2>
               <p className="text-lg text-blue-50 mb-8 max-w-2xl animate-slide-up">
                 Specialized in SAP ERP security, GRC dashboards, and S/4HANA system administration. 
@@ -284,7 +284,7 @@ ${contactForm.firstName} ${contactForm.lastName}`;
                 <Button 
                   variant="outline" 
                   className="border-2 border-white text-white hover:bg-white hover:text-[var(--ibm-blue)] no-print bg-transparent flex items-center justify-center"
-                  onClick={() => downloadFile('Akash_Resume_1753888623499.pdf')}
+                  onClick={() => downloadFile('Akash_Resume_SAP Security & GRC Consultant.pdf')}
                 >
                   <span className="text-white">Download CV</span> <Download className="ml-2 h-4 w-4 text-white" />
                 </Button>
@@ -294,7 +294,7 @@ ${contactForm.firstName} ${contactForm.lastName}`;
               <div className="w-80 h-80 rounded-full overflow-hidden border-4 border-white/20 animate-float">
                 <img 
                   src={profilePicPath} 
-                  alt="Akash Sanjay More - SAP Security Consultant" 
+                  alt="Akash Sanjay More - SAP Security & GRC Consultant" 
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -315,7 +315,7 @@ ${contactForm.firstName} ${contactForm.lastName}`;
             <div className="animate-slide-in-left">
               <h3 className="text-2xl font-semibold text-slate-900 dark:text-white mb-6">SAP Security Expert & Technology Consultant</h3>
               <p className="text-slate-600 dark:text-slate-300 mb-6 leading-relaxed">
-                Currently working as a SAP Security Consultant at IBM India, I specialize in enterprise security solutions 
+                Currently working as a SAP Security & GRC Consultant at IBM India, I specialize in enterprise security solutions 
                 for SAP environments. With extensive experience in SAP ERP, GRC Dashboard, HANA Studio, and S/4HANA Cloud, 
                 I help organizations maintain secure and compliant SAP landscapes.
               </p>
@@ -396,7 +396,7 @@ ${contactForm.firstName} ${contactForm.lastName}`;
                 <Card className="card-hover dark:bg-slate-800 dark:border-slate-700">
                   <CardContent className="pt-6">
                     <div className="flex items-center justify-between mb-4">
-                      <h3 className="text-xl font-bold text-slate-900 dark:text-white">SAP Security Consultant</h3>
+                      <h3 className="text-xl font-bold text-slate-900 dark:text-white">SAP Security & GRC Consultant</h3>
                       <Badge className="bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-200">Current</Badge>
                     </div>
                     <h4 className="text-[var(--ibm-blue)] font-semibold mb-2 flex items-center">
@@ -1183,7 +1183,7 @@ ${contactForm.firstName} ${contactForm.lastName}`;
           <div className="text-center">
             <div className="mb-6">
               <h3 className="text-2xl font-bold text-white mb-2">Akash Sanjay More</h3>
-              <p className="text-slate-400">SAP Security Consultant • IBM India</p>
+              <p className="text-slate-400">SAP Security & GRC Consultant • IBM India</p>
             </div>
             
             <div className="flex justify-center space-x-6 mb-8">
